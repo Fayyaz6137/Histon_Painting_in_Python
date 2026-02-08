@@ -9,13 +9,13 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
-WORKDIR /Histon_Painting_in_Python
+WORKDIR /app
 
 # Copy files
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY Histon_Painting_in_Python.py .
+COPY app.py .s
 
 # Run the app
-CMD ["python", "Histon_Painting_in_Python.py"]
+CMD ["python", "app.py"]

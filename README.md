@@ -31,7 +31,7 @@ The colors are selected randomly from a predefined RGB color palette.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/hirst-painting.git
+git clone https://github.com/Fayyaz6137/Histon_Painting_in_Python.git
 cd hirst-painting
 ```
 2. Install dependencies:
