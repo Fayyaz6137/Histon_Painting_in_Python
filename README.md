@@ -33,3 +33,19 @@ The colors are selected randomly from a predefined RGB color palette.
 ```bash
 git clone https://github.com/your-username/hirst-painting.git
 cd hirst-painting
+```
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+3. Run the app:
+
+```bash
+python app.py
+```
+
+---
+
+## 🖼️ Output Screenshot
+![img.png](img.png)
