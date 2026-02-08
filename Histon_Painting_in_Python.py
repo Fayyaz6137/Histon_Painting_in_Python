@@ -15,13 +15,6 @@ colors_rgb = color_list = [(202, 164, 109), (238, 240, 245), (150, 75, 49), (223
                            (183, 205, 171), (36, 60, 74), (18, 86, 90), (81, 148, 129), (148, 17, 20), (14, 70, 64),
                            (30, 68, 100), (107, 127, 153), (174, 94, 97), (176, 192, 209)]
 
-# colors2 = colorgram.extract('hsi.jpg', 30)
-# print(colors2)
-#
-# for color in colors2:
-#     color_tuple = (color.rgb.r, color.rgb.g, color.rgb.b)
-#     colors_rgb.append(color_tuple)
-# print(colors_rgb)
 
 tim.setheading(225)
 tim.forward(300)
@@ -41,18 +34,5 @@ for i in range(1, number_of_rows_and_columns+1):
     tim.forward(500)
     tim.setheading(0)
 
-# From Course
-
-# for i in range(1, number_of_dots + 1):
-#     tim.dot(15, random.choice(colors_rgb))
-#     tim.forward(50)
-#     if i % 10 Flash card Capstone Day 31 == 0:
-#         tim.setheading(90)
-#         tim.forward(50)
-#         tim.setheading(180)
-#         tim.forward(500)
-#         tim.setheading(0)
-
 screen = Screen()
-# screen.bgcolor("gray")
 screen.exitonclick()
