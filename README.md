@@ -30,8 +30,11 @@ The colors are selected randomly from a predefined RGB color palette.
 
 ```bash
 git clone https://github.com/Fayyaz6137/Histon_Painting_in_Python.git
+
 cd hirst-painting
+
 pip install -r requirements.txt
+
 python main.py
 ```
 
