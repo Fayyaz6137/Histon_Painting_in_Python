@@ -26,24 +26,23 @@ The colors are selected randomly from a predefined RGB color palette.
 
 ---
 
-## 📦 Installation
-
-1. Clone the repository:
+## ▶️ Run Locally (Recommended)
 
 ```bash
 git clone https://github.com/Fayyaz6137/Histon_Painting_in_Python.git
 cd hirst-painting
-```
-2. Install dependencies:
-
-```bash
 pip install -r requirements.txt
+python main.py
 ```
-3. Run the app:
+
+---
+
+## 🐳 Run With Docker
 
 ```bash
-python app.py
+docker compose up --build
 ```
+⚠️ Since this is a GUI application, running inside Docker requires an X server (e.g., VcXsrv on Windows).
 
 ---
 
